@@ -18,20 +18,19 @@ import parseRequest from "./utilities/parse-request.js";
   const requestsListElement = document.getElementById("requests-list");
   const rawRequests = await fetch(`./requests.json?t=${Date.now()}`).then((res) => res.json());
 
-  if (rawRequests.doing || rawRequests.noted.length)
-    requestsListElement.removeChild(requestsListElement.querySelector(".empty"));
+  const availableStates = Object.keys(rawRequests);
 
-  if (rawRequests.doing) {
-    const { id, request } = parseRequest(rawRequests.doing);
-    const { snippet } = await getVideoData(id);
-    requestsListElement.appendChild(createRequestElement(snippet, "doing", request));
-  }
+  const isExist = availableStates.every((status) => !rawRequests[status]?.length);
+  if (!isExist) requestsListElement.removeChild(requestsListElement.querySelector(".empty"));
 
-  for (const rawRequest of rawRequests.noted) {
-    const { id, request } = parseRequest(rawRequest);
-    const { snippet } = await getVideoData(id);
-    requestsListElement.appendChild(createRequestElement(snippet, "noted", request));
-  }
+  let requestOrder = 0;
+  for (const status of availableStates)
+    for (const rawRequest of rawRequests[status]) {
+      const { id, request } = parseRequest(rawRequest);
+      const { snippet } = await getVideoData(id);
+      const requestElement = createRequestElement(snippet, status, request, ++requestOrder);
+      requestsListElement.appendChild(requestElement);
+    }
 })();
 
 (() => {
