@@ -1,4 +1,4 @@
-export default function createRequestElement(snippet, status, request, order) {
+export default function createRequestElement(id, snippet, status, request, order) {
   const requestElement = document.createElement("div");
   requestElement.className = "request";
 
@@ -16,10 +16,12 @@ export default function createRequestElement(snippet, status, request, order) {
   rightElements.className = "right";
   requestElement.appendChild(rightElements);
 
-  const titleElement = document.createElement("div");
+  const titleElement = document.createElement("a");
   titleElement.className = "title";
   titleElement.title = snippet.title;
   titleElement.textContent = snippet.title;
+  titleElement.href = "https://youtu.be/" + id;
+  titleElement.target = "_blank";
   rightElements.appendChild(titleElement);
 
   const rightBottomElement = document.createElement("div");

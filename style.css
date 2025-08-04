@@ -193,6 +193,11 @@ main {
   font-weight: bold;
   color: #f1f1f1;
   margin-bottom: 0.25em;
+  text-decoration: none;
+}
+
+#requests-list .request .title:hover {
+  text-decoration: underline;
 }
 
 #requests-list .request .right .bottom {
