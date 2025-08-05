@@ -1,4 +1,4 @@
-export default function createRequestElement(id, snippet, status, request, order) {
+export default function createRequestElement(snippet, status, request, order) {
   const requestElement = document.createElement("div");
   requestElement.className = "request";
 
@@ -20,7 +20,9 @@ export default function createRequestElement(id, snippet, status, request, order
   titleElement.className = "title";
   titleElement.title = snippet.title;
   titleElement.textContent = snippet.title;
-  titleElement.href = "https://youtu.be/" + id;
+  titleElement.href =
+    "https://www.youtube.com/results?search_query=" +
+    encodeURIComponent(snippet.title).replace(/%20/g, "+");
   titleElement.target = "_blank";
   rightElements.appendChild(titleElement);
 

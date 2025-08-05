@@ -28,7 +28,7 @@ import parseRequest from "./utilities/parse-request.js";
     for (const rawRequest of rawRequests[status]) {
       const { id, request } = parseRequest(rawRequest);
       const { snippet } = await getVideoData(id);
-      const requestElement = createRequestElement(id, snippet, status, request, ++requestOrder);
+      const requestElement = createRequestElement(snippet, status, request, ++requestOrder);
       requestsListElement.appendChild(requestElement);
     }
 })();
