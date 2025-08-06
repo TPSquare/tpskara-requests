@@ -26,9 +26,9 @@ import parseRequest from "./utilities/parse-request.js";
   let requestOrder = 0;
   for (const status of availableStates)
     for (const rawRequest of rawRequests[status]) {
-      const { id, request } = parseRequest(rawRequest);
+      const { id, request, other } = parseRequest(rawRequest);
       const { snippet } = await getVideoData(id);
-      const requestElement = createRequestElement(snippet, status, request, ++requestOrder);
+      const requestElement = createRequestElement(snippet, status, request, ++requestOrder, other);
       requestsListElement.appendChild(requestElement);
     }
 })();

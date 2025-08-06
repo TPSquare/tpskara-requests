@@ -1,7 +1,8 @@
-export default function parseRequest(rawRequest) {
-  const [id, request] = rawRequest.split(":");
+export default function parseRequest(rawRequest, status) {
+  const props = rawRequest.split("|").map((e) => e.trim());
   return {
-    id,
-    request: request?.trim(),
+    id: props[0],
+    request: status === "paused" && props[2] ? props[1] : undefined,
+    other: props[2] || props[1],
   };
 }

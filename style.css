@@ -232,6 +232,11 @@ main {
   background-color: green;
 }
 
+#requests-list .request .status.paused::after {
+  content: "Tạm dừng. Lí do: " attr(data-reason);
+  background-color: rgb(255, 70, 70);
+}
+
 #requests-list .empty {
   font-family: "Roboto", sans-serif;
   font-size: 1.125em;
