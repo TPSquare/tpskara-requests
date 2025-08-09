@@ -1,9 +1,10 @@
 export default {
-  doing: [],
+  doing: [
+    { youtubeID: "vsX359AxuE4" }, // Ronboogz - Chỉ là 1, 2 câu | Live at LAB WordUp! | ZLAB
+  ],
   paused: [],
   noted: [
-    { youtubeID: "vsX359AxuE4" }, // Ronboogz - Chỉ là 1, 2 câu | Live at LAB WordUp! | ZLAB
-    { youtubeID: "OtnQyqb6-nM" }, // B RAY | YÊU NHƯ TRẺ CON | Official MV
+    { youtubeID: "OtnQyqb6-nM", request: "Bình thường & Có hook" }, // B RAY | YÊU NHƯ TRẺ CON | Official MV
     { youtubeID: "nt5ZYiJtDzU" }, // [HiddenGem Mixtape] 4. Một Vòng Sài Gòn - B Ray
     { youtubeID: "hqAxbmtzp5s", request: "Bình thường & Có hook" }, // "(FYILY) 6. BẢN NHẠC CUỐI (cho em) - B Ray"
     { youtubeID: "H--bME9B2Ow" }, // ĐÊM NAY CÔ ĐƠN | Huỳnh Công Hiếu x Ngắn x Xám | "Đà Lạt Ep2"
@@ -22,5 +23,8 @@ export default {
     { youtubeID: "ulSRJhkfDmo", request: "Bình thường & Có hook" }, // [FYILY] 1.BẢN NHẠC BUỒN | B RAY | OFFICIAL VIDEO
     { youtubeID: "3PrZRWJPrG4" }, // Hoa Hồng Trên Bê Tông - RichChoi ft. Rio (Prod. Slime7) | official visualizer (from 'HHTBT' album),
     { youtubeID: "cJejXRG2a-A" }, // NKAY - TỪ NGÀY CÙNG ĐƯỜNG | WHY NOT HIPHOP ? 2025 (Chặng 1)
+    { youtubeID: "Q9EyPt_gpsc" }, // Obito - Con kể Ba nghe
+    { youtubeID: "xJjOvlXr0Qc" }, // SOJU LOVE - Obito | Official Music Video
+    { youtubeID: "p46FT0JQPkg" }, // (Official Lyrics Video) [DTT&TT] Track 8. Xin Lỗi - B Ray
   ],
 };
