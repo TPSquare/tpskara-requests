@@ -1,9 +1,9 @@
 export default {
-  doing: [
-    { youtubeID: "cfbNtHNCMBo", request: "Bình thường & Có giọng nữ" }, // B RAY x SOFIA & CHÂU ĐĂNG KHOA | THIÊU THÂN | OFFICIAL MV
-    { youtubeID: "XyGBu4wARpA" }, // (FYILY) 3. Welcome to the Show (Prod. eeryskies.) - B Ray
+  doing: [],
+  paused: [
+    { youtubeID: "cfbNtHNCMBo", request: "Bình thường & Có giọng nữ", reason: "Mất điện" }, // B RAY x SOFIA & CHÂU ĐĂNG KHOA | THIÊU THÂN | OFFICIAL MV
+    { youtubeID: "XyGBu4wARpA", reason: "Mất điện" }, // (FYILY) 3. Welcome to the Show (Prod. eeryskies.) - B Ray
   ],
-  paused: [],
   noted: [
     { youtubeID: "vsX359AxuE4" }, // Ronboogz - Chỉ là 1, 2 câu | Live at LAB WordUp! | ZLAB
     { youtubeID: "OtnQyqb6-nM" }, // B RAY | YÊU NHƯ TRẺ CON | Official MV
