@@ -1,7 +1,5 @@
 export default {
-  doing: [
-    { youtubeID: "vsX359AxuE4" }, // Ronboogz - Chỉ là 1, 2 câu | Live at LAB WordUp! | ZLAB
-  ],
+  doing: [],
   paused: [],
   noted: [
     { youtubeID: "OtnQyqb6-nM", request: "Bình thường & Có hook" }, // B RAY | YÊU NHƯ TRẺ CON | Official MV
