@@ -13,10 +13,9 @@
 
 import createRequestElement from "./utilities/create-request-element.js";
 import getVideoData from "./utilities/get-video-data.js";
-import parseRequest from "./utilities/parse-request.js";
+import rawRequests from "./requests.js";
 (async () => {
   const requestsListElement = document.getElementById("requests-list");
-  const rawRequests = await fetch(`./requests.json?t=${Date.now()}`).then((res) => res.json());
 
   const availableStates = Object.keys(rawRequests);
 
@@ -26,8 +25,8 @@ import parseRequest from "./utilities/parse-request.js";
   let requestOrder = 0;
   for (const status of availableStates)
     for (const rawRequest of rawRequests[status]) {
-      const { id, request, other } = parseRequest(rawRequest);
-      const { snippet } = await getVideoData(id);
+      const { youtubeID, request, reason: other } = rawRequest;
+      const { snippet } = await getVideoData(youtubeID);
       const requestElement = createRequestElement(snippet, status, request, ++requestOrder, other);
       requestsListElement.appendChild(requestElement);
     }
