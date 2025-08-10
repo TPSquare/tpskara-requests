@@ -1,8 +1,9 @@
 export default {
-  doing: [],
+  doing: [
+    { youtubeID: "nt5ZYiJtDzU" }, // [HiddenGem Mixtape] 4. Một Vòng Sài Gòn - B Ray
+  ],
   paused: [],
   noted: [
-    { youtubeID: "nt5ZYiJtDzU" }, // [HiddenGem Mixtape] 4. Một Vòng Sài Gòn - B Ray
     { youtubeID: "hqAxbmtzp5s", request: "Bình thường & Có hook" }, // "(FYILY) 6. BẢN NHẠC CUỐI (cho em) - B Ray"
     { youtubeID: "H--bME9B2Ow" }, // ĐÊM NAY CÔ ĐƠN | Huỳnh Công Hiếu x Ngắn x Xám | "Đà Lạt Ep2"
     { youtubeID: "N6fhy5HFN1k" }, // 9.Sống Hiphop - Rocky CDE ft @goianhlagio | “Midas Touch” the album
@@ -24,5 +25,6 @@ export default {
     { youtubeID: "xJjOvlXr0Qc" }, // SOJU LOVE - Obito | Official Music Video
     { youtubeID: "p46FT0JQPkg" }, // (Official Lyrics Video) [DTT&TT] Track 8. Xin Lỗi - B Ray
     { youtubeID: "EzVmhiEyNSw" }, // 24K.RIGHT - NHƯ NHAU THÔI [feat. HIPZ] | OFFICIAL MUSIC VIDEO
+    { youtubeID: "XMpOUEvueuM" }, // Sớm Mai - PiaLinh, Ronboogz, BONN!EX (Official Music Video)
   ],
 };
