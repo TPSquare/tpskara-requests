@@ -13,23 +13,19 @@
 
 import createRequestElement from "./utilities/create-request-element.js";
 import getVideoData from "./utilities/get-video-data.js";
-import rawRequests from "./requests.js";
 (async () => {
   const requestsListElement = document.getElementById("requests-list");
+  const requests = await fetch(`./requests.json?time=${Date.now()}`).then((res) => res.json());
 
-  const availableStates = Object.keys(rawRequests);
+  if (requests.length)
+    requestsListElement.removeChild(requestsListElement.querySelector(".empty"));
 
-  const isExist = availableStates.every((status) => !rawRequests[status]?.length);
-  if (!isExist) requestsListElement.removeChild(requestsListElement.querySelector(".empty"));
-
-  let requestOrder = 0;
-  for (const status of availableStates)
-    for (const rawRequest of rawRequests[status]) {
-      const { youtubeID, request, reason: other } = rawRequest;
-      const { snippet } = await getVideoData(youtubeID);
-      const requestElement = createRequestElement(snippet, status, request, ++requestOrder, other);
-      requestsListElement.appendChild(requestElement);
-    }
+  for (let i = 0; i < requests.length; i++) {
+    const { youtubeID, request } = requests[i];
+    const { snippet } = await getVideoData(youtubeID);
+    const requestElement = createRequestElement(snippet, request, i + 1);
+    requestsListElement.appendChild(requestElement);
+  }
 })();
 
 (() => {

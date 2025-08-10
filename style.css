@@ -218,25 +218,6 @@ main {
   margin-bottom: 0.2em;
 }
 
-#requests-list .request .status::after {
-  content: "Đã ghi nhận";
-  background-color: gray;
-  padding: 0.15em 0.3em;
-  color: #f1f1f1;
-  border-radius: 0.3em;
-  font-weight: bold;
-}
-
-#requests-list .request .status.doing::after {
-  content: "Đang xử lí";
-  background-color: green;
-}
-
-#requests-list .request .status.paused::after {
-  content: "Tạm dừng. Lí do: " attr(data-reason);
-  background-color: rgb(255, 70, 70);
-}
-
 #requests-list .empty {
   font-family: "Roboto", sans-serif;
   font-size: 1.125em;

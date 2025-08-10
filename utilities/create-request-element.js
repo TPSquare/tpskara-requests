@@ -1,4 +1,4 @@
-export default function createRequestElement(snippet, status, request, order, other) {
+export default function createRequestElement(snippet, request, order) {
   const requestElement = document.createElement("div");
   requestElement.className = "request";
 
@@ -36,12 +36,6 @@ export default function createRequestElement(snippet, status, request, order, ot
     requestTextElement.textContent = `Yêu cầu: ${request}`;
     rightBottomElement.appendChild(requestTextElement);
   }
-
-  const statusElement = document.createElement("div");
-  statusElement.className = "status" + (status ? ` ${status}` : "");
-  statusElement.textContent = "Trạng thái: ";
-  if (status === "paused") statusElement.setAttribute("data-reason", other);
-  rightBottomElement.appendChild(statusElement);
 
   return requestElement;
 }
