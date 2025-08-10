@@ -2,8 +2,6 @@ export default {
   doing: [],
   paused: [],
   noted: [
-    { youtubeID: "N6fhy5HFN1k" }, // 9.Sống Hiphop - Rocky CDE ft @goianhlagio | “Midas Touch” the album
-    { youtubeID: "3YtU8BsAPkg" }, // Về Đi Em | B RAY | Official Lyrics Video
     { youtubeID: "gFsc4brtBes" }, // [DTT&TT] Track 7. Phép Màu - B Ray
     { youtubeID: "ngnq62THCI8" }, // Sống Dai
     { youtubeID: "iJfJnfBgw7I" }, // Dangrangto - 'tốt cho anh' (prod. DONAL)
@@ -22,5 +20,6 @@ export default {
     { youtubeID: "p46FT0JQPkg" }, // (Official Lyrics Video) [DTT&TT] Track 8. Xin Lỗi - B Ray
     { youtubeID: "EzVmhiEyNSw" }, // 24K.RIGHT - NHƯ NHAU THÔI [feat. HIPZ] | OFFICIAL MUSIC VIDEO
     { youtubeID: "XMpOUEvueuM" }, // Sớm Mai - PiaLinh, Ronboogz, BONN!EX (Official Music Video)
+    { youtubeID: "vLLbq6Zt7mU" }, // Hành Tinh Khác _ Nhật Hoàng x Hennessy x Hagi | Official Visualizer
   ],
 };
