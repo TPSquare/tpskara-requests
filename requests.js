@@ -1,10 +1,9 @@
 export default {
   doing: [
-    { youtubeID: "hqAxbmtzp5s", request: "Bình thường & Có hook" }, // "(FYILY) 6. BẢN NHẠC CUỐI (cho em) - B Ray"
+    { youtubeID: "H--bME9B2Ow" }, // ĐÊM NAY CÔ ĐƠN | Huỳnh Công Hiếu x Ngắn x Xám | "Đà Lạt Ep2"
   ],
   paused: [],
   noted: [
-    { youtubeID: "H--bME9B2Ow" }, // ĐÊM NAY CÔ ĐƠN | Huỳnh Công Hiếu x Ngắn x Xám | "Đà Lạt Ep2"
     { youtubeID: "N6fhy5HFN1k" }, // 9.Sống Hiphop - Rocky CDE ft @goianhlagio | “Midas Touch” the album
     { youtubeID: "3YtU8BsAPkg" }, // Về Đi Em | B RAY | Official Lyrics Video
     { youtubeID: "gFsc4brtBes" }, // [DTT&TT] Track 7. Phép Màu - B Ray
