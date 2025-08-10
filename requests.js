@@ -1,7 +1,5 @@
 export default {
-  doing: [
-    { youtubeID: "H--bME9B2Ow" }, // ĐÊM NAY CÔ ĐƠN | Huỳnh Công Hiếu x Ngắn x Xám | "Đà Lạt Ep2"
-  ],
+  doing: [],
   paused: [],
   noted: [
     { youtubeID: "N6fhy5HFN1k" }, // 9.Sống Hiphop - Rocky CDE ft @goianhlagio | “Midas Touch” the album
