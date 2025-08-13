@@ -172,6 +172,7 @@ main {
 
 #requests-list .request img {
   height: 3.75em;
+  width: 6.6666667em;
   border-radius: 0.25em;
   margin-right: 0.625em;
 }

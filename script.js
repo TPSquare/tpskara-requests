@@ -17,13 +17,24 @@ import getVideoData from "./utilities/get-video-data.js";
   const requestsListElement = document.getElementById("requests-list");
   const requests = await fetch(`./requests.json?time=${Date.now()}`).then((res) => res.json());
 
-  if (requests.length)
-    requestsListElement.removeChild(requestsListElement.querySelector(".empty"));
+  if (requests.length) requestsListElement.removeChild(requestsListElement.querySelector(".empty"));
 
   for (let i = 0; i < requests.length; i++) {
-    const { youtubeID, request } = requests[i];
-    const { snippet } = await getVideoData(youtubeID);
-    const requestElement = createRequestElement(snippet, request, i + 1);
+    const request = requests[i];
+    const config = { request: request.request, order: i + 1 };
+    if (request.youtubeID) {
+      const { snippet } = await getVideoData(request.youtubeID);
+      config.title = snippet.title;
+      config.thumbnailUrl = snippet.thumbnails.medium.url;
+      config.link =
+        "https://www.youtube.com/results?search_query=" +
+        encodeURIComponent(snippet.title).replace(/%20/g, "+");
+    } else {
+      config.title = request.title;
+      config.thumbnailUrl = request.thumbnailUrl;
+      config.link = request.link;
+    }
+    const requestElement = createRequestElement(config);
     requestsListElement.appendChild(requestElement);
   }
 })();

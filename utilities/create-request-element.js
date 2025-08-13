@@ -1,4 +1,4 @@
-export default function createRequestElement(snippet, request, order) {
+export default function createRequestElement({ title, thumbnailUrl, request, order, link }) {
   const requestElement = document.createElement("div");
   requestElement.className = "request";
 
@@ -8,8 +8,8 @@ export default function createRequestElement(snippet, request, order) {
   requestElement.appendChild(orderElement);
 
   const thumbnailElement = document.createElement("img");
-  thumbnailElement.src = snippet.thumbnails.medium.url;
-  thumbnailElement.alt = snippet.title;
+  thumbnailElement.src = thumbnailUrl;
+  thumbnailElement.alt = title;
   requestElement.appendChild(thumbnailElement);
 
   const rightElements = document.createElement("div");
@@ -18,11 +18,9 @@ export default function createRequestElement(snippet, request, order) {
 
   const titleElement = document.createElement("a");
   titleElement.className = "title";
-  titleElement.title = snippet.title;
-  titleElement.textContent = snippet.title;
-  titleElement.href =
-    "https://www.youtube.com/results?search_query=" +
-    encodeURIComponent(snippet.title).replace(/%20/g, "+");
+  titleElement.title = title;
+  titleElement.textContent = title;
+  titleElement.href = link;
   titleElement.target = "_blank";
   rightElements.appendChild(titleElement);
 
