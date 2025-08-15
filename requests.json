@@ -1,10 +1,5 @@
 [
   {
-    "youtubeID": "vbqUvaQKFik",
-    "request": "Bình thường & Có hook",
-    "title": "Đừng Đổ Lỗi Bọn Trẻ | B Ray x Hoàng Yến Chibi | Official Lyrics Video,"
-  },
-  {
     "youtubeID": "ulSRJhkfDmo",
     "request": "Bình thường & Có hook",
     "title": "[FYILY] 1.BẢN NHẠC BUỒN | B RAY | OFFICIAL VIDEO"
@@ -53,5 +48,11 @@
     "thumbnailUrl": "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_jpeg/cover/8/d/9/b/8d9b9bfad7aa479df33f85afb086ee3a.jpg"
   },
   { "youtubeID": "QY8qXJzP9UU", "title": "BLACKLIONS-\"BANG BANG VĨNH CỬU\" M/V OFFICAL" },
-  { "youtubeID": "I9DoRLyZbq8", "title": "[HiddenGem Mixtape] 7. J Cole Nói - B Ray" }
+  { "youtubeID": "I9DoRLyZbq8", "title": "[HiddenGem Mixtape] 7. J Cole Nói - B Ray" },
+  {
+    "youtubeID": "FMEM4I614Wk",
+    "title": "Karik | Live at GENfest 24 | MCam full performance",
+    "request": "MASHUP KHU TAO SỐNG x HAI THẾ GIỚI"
+  },
+  { "youtubeID": "JjsOfgV_NGU", "title": "Nhật Hoàng | Sinh Mệnh | OFFICIAL AUDIO" }
 ]
