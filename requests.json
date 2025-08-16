@@ -1,60 +1,34 @@
 [
-  {
-    "youtubeID": "3PrZRWJPrG4",
-    "title": "Hoa Hồng Trên Bê Tông - RichChoi ft. Rio (Prod. Slime7) | official visualizer (from 'HHTBT' album),"
-  },
-  {
-    "youtubeID": "cJejXRG2a-A",
-    "title": "NKAY - TỪ NGÀY CÙNG ĐƯỜNG | WHY NOT HIPHOP ? 2025 (Chặng 1)"
-  },
-  { "youtubeID": "Q9EyPt_gpsc", "title": "Obito - Con kể Ba nghe" },
-  { "youtubeID": "xJjOvlXr0Qc", "title": "SOJU LOVE - Obito | Official Music Video" },
-  {
-    "youtubeID": "p46FT0JQPkg",
-    "request": "Bình thường & Có hook",
-    "title": "(Official Lyrics Video) [DTT&TT] Track 8. Xin Lỗi - B Ray"
-  },
-  {
-    "youtubeID": "EzVmhiEyNSw",
-    "title": "24K.RIGHT - NHƯ NHAU THÔI [feat. HIPZ] | OFFICIAL MUSIC VIDEO"
-  },
-  {
-    "youtubeID": "XMpOUEvueuM",
-    "title": "Sớm Mai - PiaLinh, Ronboogz, BONN!EX (Official Music Video)"
-  },
-  {
-    "youtubeID": "vLLbq6Zt7mU",
-    "title": "Hành Tinh Khác _ Nhật Hoàng x Hennessy x Hagi | Official Visualizer"
-  },
-  {
-    "youtubeID": "2gQwDQdvgQE",
-    "title": "FREAKY - CẦU VỒNG SAU SONG SẮT | WHY NOT HIPHOP ? 2025 (Chặng 1)"
-  },
-  { "youtubeID": "phgI-TefJCw", "title": "WE ARE JUST KIDS - FREAKY ft. APJ, @cm1x (Official MV)" },
-  { "youtubeID": "QUh0opSepI0", "title": "Bài Nhạc - Nah" },
-  {
-    "youtubeID": "OOJelafpV88",
-    "title": "24K.RIGHT - VẪN [feat. HUỲNH TÚ, HIPZ] | OFFICIAL MUSIC VIDEO"
-  },
-  { "youtubeID": "LPx7ERqFYM0", "title": "15. Badtrip - RPT MCK | \"99%\" the album" },
+  { "youtubeID": "cJejXRG2a-A", "note": "NKAY - TỪ NGÀY CÙNG ĐƯỜNG" },
+  { "youtubeID": "Q9EyPt_gpsc", "note": "Obito - Con kể Ba nghe" },
+  { "youtubeID": "xJjOvlXr0Qc", "note": "SOJU LOVE - Obito" },
+  { "youtubeID": "p46FT0JQPkg", "request": "Bình thường & Có hook", "note": "Xin Lỗi - B Ray" },
+  { "youtubeID": "EzVmhiEyNSw", "note": "24K.RIGHT - NHƯ NHAU THÔI" },
+  { "youtubeID": "XMpOUEvueuM", "note": "Sớm Mai - PiaLinh, Ronboogz, BONN!EX" },
+  { "youtubeID": "vLLbq6Zt7mU", "note": "Hành Tinh Khác _ Nhật Hoàng x Hennessy x Hagi" },
+  { "youtubeID": "2gQwDQdvgQE", "note": "FREAKY - CẦU VỒNG SAU SONG SẮT" },
+  { "youtubeID": "phgI-TefJCw", "note": "WE ARE JUST KIDS - FREAKY" },
+  { "youtubeID": "QUh0opSepI0", "note": "Bài Nhạc - Nah" },
+  { "youtubeID": "OOJelafpV88", "note": "24K.RIGHT - VẪN" },
+  { "youtubeID": "LPx7ERqFYM0", "note": "Badtrip - RPT MCK" },
   {
     "link": "https://zingmp3.vn/bai-hat/Khong-Quen-B-Ray/ZZE87OEO.html",
     "title": "Không Quen (B Ray) - Lời bài hát, tải nhạc Zing MP3",
     "thumbnailUrl": "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_jpeg/cover/8/d/9/b/8d9b9bfad7aa479df33f85afb086ee3a.jpg"
   },
-  { "youtubeID": "QY8qXJzP9UU", "title": "BLACKLIONS-\"BANG BANG VĨNH CỬU\" M/V OFFICAL" },
-  { "youtubeID": "I9DoRLyZbq8", "title": "[HiddenGem Mixtape] 7. J Cole Nói - B Ray" },
+  { "youtubeID": "QY8qXJzP9UU", "note": "BLACKLIONS-\"BANG BANG VĨNH CỬU\"" },
+  { "youtubeID": "I9DoRLyZbq8", "note": "J Cole Nói - B Ray" },
   {
     "youtubeID": "FMEM4I614Wk",
-    "title": "Karik | Live at GENfest 24 | MCam full performance",
+    "note": "Karik | Live at GENfest 24 | MCam full performance",
     "request": "MASHUP KHU TAO SỐNG x HAI THẾ GIỚI"
   },
-  { "youtubeID": "JjsOfgV_NGU", "title": "Nhật Hoàng | Sinh Mệnh | OFFICIAL AUDIO" },
-  { "youtubeID": "SLeWRQyJWWM", "title": "5BER1 - LÀM LIỀU (feat. Kriss Ngo)" },
-  { "youtubeID": "3DWWhyyXx84", "title": "Bài Ca Thịt Nướng - Hari Won" },
-  { "youtubeID": "Z8OrrzIIDTc", "title": "Vô Ý - 1nG (Prod. @VRTOfficial)" },
-  {
-    "youtubeID": "e7UoRiZAJEo",
-    "title": "HUỲNH CÔNG HIẾU - HÒN NGỌC VIỄN ĐÔNG ft. THAI VG, LÊ TÍCH KỲ (PROD. MACHIOT x TỔNG ĐÀI PRODUCTION)"
-  }
+  { "youtubeID": "JjsOfgV_NGU", "note": "Nhật Hoàng | Sinh Mệnh" },
+  { "youtubeID": "SLeWRQyJWWM", "note": "5BER1 - LÀM LIỀU" },
+  { "youtubeID": "3DWWhyyXx84", "note": "Bài Ca Thịt Nướng - Hari Won" },
+  { "youtubeID": "Z8OrrzIIDTc", "note": "Vô Ý - 1nG" },
+  { "youtubeID": "e7UoRiZAJEo", "note": "HUỲNH CÔNG HIẾU - HÒN NGỌC VIỄN ĐÔNG" },
+  { "youtubeID": "IstCx5Xvbig", "note": "Aric | The Future is Now" },
+  { "youtubeID": "7eyEUaVXF8E", "note": "MOTCHUTHOI | B Ray" },
+  { "youtubeID": "v_gttlXZTVI", "note": "Ta CÓ Nên (Intro) - B Ray" }
 ]
