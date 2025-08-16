@@ -1,10 +1,5 @@
 [
   {
-    "youtubeID": "ulSRJhkfDmo",
-    "request": "Bình thường & Có hook",
-    "title": "[FYILY] 1.BẢN NHẠC BUỒN | B RAY | OFFICIAL VIDEO"
-  },
-  {
     "youtubeID": "3PrZRWJPrG4",
     "title": "Hoa Hồng Trên Bê Tông - RichChoi ft. Rio (Prod. Slime7) | official visualizer (from 'HHTBT' album),"
   },
@@ -54,5 +49,12 @@
     "title": "Karik | Live at GENfest 24 | MCam full performance",
     "request": "MASHUP KHU TAO SỐNG x HAI THẾ GIỚI"
   },
-  { "youtubeID": "JjsOfgV_NGU", "title": "Nhật Hoàng | Sinh Mệnh | OFFICIAL AUDIO" }
+  { "youtubeID": "JjsOfgV_NGU", "title": "Nhật Hoàng | Sinh Mệnh | OFFICIAL AUDIO" },
+  { "youtubeID": "SLeWRQyJWWM", "title": "5BER1 - LÀM LIỀU (feat. Kriss Ngo)" },
+  { "youtubeID": "3DWWhyyXx84", "title": "Bài Ca Thịt Nướng - Hari Won" },
+  { "youtubeID": "Z8OrrzIIDTc", "title": "Vô Ý - 1nG (Prod. @VRTOfficial)" },
+  {
+    "youtubeID": "e7UoRiZAJEo",
+    "title": "HUỲNH CÔNG HIẾU - HÒN NGỌC VIỄN ĐÔNG ft. THAI VG, LÊ TÍCH KỲ (PROD. MACHIOT x TỔNG ĐÀI PRODUCTION)"
+  }
 ]
