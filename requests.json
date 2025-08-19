@@ -1,5 +1,8 @@
 [
-  { "youtubeID": "XMpOUEvueuM", "note": "Sớm Mai - PiaLinh, Ronboogz, BONN!EX" },
+  {
+    "youtubeID": "5Lyz-W6ruAE",
+    "request": "Có bè giọng nữ, có đoạn nói đầu, có đoạn ác quỷ âm lượng nhỏ"
+  },
   { "youtubeID": "2gQwDQdvgQE", "note": "FREAKY - CẦU VỒNG SAU SONG SẮT" },
   { "youtubeID": "vLLbq6Zt7mU", "note": "Hành Tinh Khác _ Nhật Hoàng x Hennessy x Hagi" },
   { "youtubeID": "phgI-TefJCw", "note": "WE ARE JUST KIDS - FREAKY" },
@@ -30,5 +33,28 @@
   { "youtubeID": "iXO_yp0wpRI", "note": "THAY LỜI MUỐN NÓI - Rick" },
   { "youtubeID": "1g8TRI1qTds", "note": "Young H - Wasabi" },
   { "youtubeID": "TAy7s5LdMoE", "note": "Cùng Bay Nào - SMO" },
-  { "youtubeID": "-sF1ErJqlfE", "note": "are u sad - B ray demo" }
+  { "youtubeID": "-sF1ErJqlfE", "note": "are u sad - B ray demo" },
+  {
+    "link": "https://soundcloud.com/sharonvineyard/bai-hat-buon-nhat-bray?in=muntooko2411/sets/nh-c-t-th-ch&si=83bed0999d5943efaa6a881303567fee&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    "title": "Bài Hát Buồn Nhất - BRay ft Captain (Live at Genfest)",
+    "thumbnailUrl": "https://i1.sndcdn.com/artworks-kYzqM2VaBa3SW65V-JQgdpA-t1080x1080.jpg"
+  },
+  { "youtubeID": "NgAXVHAa7-Q", "note": "KHI EM LỚN nhưng nó là rap - Tọi" },
+  {
+    "youtubeID": "7w0xZeOh-0Y",
+    "note": "Sống Cho Hết Đời Thanh Xuân 4 (Chill Version) | Huỳnh Công Hiếu x Ngắn",
+    "request": "Có hook"
+  },
+  {
+    "youtubeID": "UgkmUWthTx0",
+    "note": "tình yêu là thế | Dick x 2Can x Ngắn",
+    "request": "Có hook"
+  },
+  { "youtubeID": "ou7hDohFoK4", "note": "Để Ai Cần | Bray x Young H x HIPZ" },
+  {
+    "youtubeID": "hP31PZky1dY",
+    "note": "Ngẩng Cao Đầu - Nhóm Nhạc ... (B Ray, Masew, Đạt G)",
+    "request": "Có giọng Đạt G"
+  },
+  { "youtubeID": "hqh-TbUaxpQ", "note": "CHÚNG TA | Siro x Ruby x QTBeatz" }
 ]
