@@ -21,7 +21,7 @@ import getVideoData from "./utilities/get-video-data.js";
 
   for (let i = 0; i < requests.length; i++) {
     const request = requests[i];
-    const config = { request: request.request, order: i + 1 };
+    const config = { request: request.request, order: i + 1, donate: request.donate };
     if (request.youtubeID) {
       const { snippet } = await getVideoData(request.youtubeID);
       config.title = snippet.title;
