@@ -1,4 +1,11 @@
-export default function createRequestElement({ title, thumbnailUrl, request, order, link }) {
+export default function createRequestElement({
+  title,
+  thumbnailUrl,
+  request,
+  order,
+  link,
+  donate,
+}) {
   const requestElement = document.createElement("div");
   requestElement.className = "request";
 
@@ -33,6 +40,13 @@ export default function createRequestElement({ title, thumbnailUrl, request, ord
     requestTextElement.classList = "request-text";
     requestTextElement.textContent = `Yêu cầu: ${request}`;
     rightBottomElement.appendChild(requestTextElement);
+  }
+
+  if (donate) {
+    const donateElement = document.createElement("div");
+    donateElement.className = "donate";
+    donateElement.textContent = donate;
+    requestElement.appendChild(donateElement);
   }
 
   return requestElement;
