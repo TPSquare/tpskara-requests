@@ -1,9 +1,4 @@
 [
-  {
-    "youtubeID": "FMEM4I614Wk",
-    "note": "Karik | Live at GENfest 24 | MCam full performance",
-    "request": "MASHUP KHU TAO SỐNG x HAI THẾ GIỚI"
-  },
   { "youtubeID": "JjsOfgV_NGU", "note": "Nhật Hoàng | Sinh Mệnh" },
   { "youtubeID": "SLeWRQyJWWM", "note": "5BER1 - LÀM LIỀU" },
   { "youtubeID": "3DWWhyyXx84", "note": "Bài Ca Thịt Nướng - Hari Won" },
@@ -33,16 +28,16 @@
     "note": "tình yêu là thế | Dick x 2Can x Ngắn",
     "request": "Có hook"
   },
-  { "youtubeID": "ou7hDohFoK4", "note": "Để Ai Cần | Bray x Young H x HIPZ" },
   {
     "youtubeID": "hP31PZky1dY",
     "note": "Ngẩng Cao Đầu - Nhóm Nhạc ... (B Ray, Masew, Đạt G)",
     "request": "Có giọng Đạt G"
   },
+  { "youtubeID": "ou7hDohFoK4", "note": "Để Ai Cần | Bray x Young H x HIPZ" },
   { "youtubeID": "hqh-TbUaxpQ", "note": "CHÚNG TA | Siro x Ruby x QTBeatz" },
   { "youtubeID": "xRL2BspFnOs", "note": "Obito - Đầu Đường Xó Chợ ft. Lăng LD" },
-  { "youtubeID": "rQOcnt96tNI", "note": "Freaky - Sân Khấu Lầm Tưởng" },
   { "youtubeID": "mbEZ_9dhM_Y", "note": "2h - MCK" },
+  { "youtubeID": "rQOcnt96tNI", "note": "Freaky - Sân Khấu Lầm Tưởng" },
   { "youtubeID": "OerAX-zKyvg", "note": "Obito - Hà Nội ft. VSTRA" },
   { "youtubeID": "Yc9kUOash9s", "note": "Ok khong dung hoang oi - MCK" },
   { "youtubeID": "HXCB75dcxAE", "note": "Obito - Biên Giới Long Bình" },
@@ -61,7 +56,7 @@
     "request": "Tone nam"
   },
   { "youtubeID": "R47YwUQvgBI", "note": "Ân Xá (Prod. JunioR) - B Ray" },
-  { "youtubeID": "iEHtXbCDHT4", "note": "QNT - TAMKA", "request": "Có hook" },
+  { "youtubeID": "iEHtXbCDHT4", "note": "QNT - TAMKA", "request": "Bình thường & có hook" },
   { "youtubeID": "Y1QXFXGfrTI", "note": "Obito - Vô Điều Kiện" },
   { "youtubeID": "tNDqZ6tPvb4", "note": "Sad Love 3 - Young H ft. Black Bi" },
   { "youtubeID": "vAqGVnCV4oA", "note": "Obito - Backstage Freestyle" },
@@ -73,5 +68,7 @@
   { "youtubeID": "GUCd7imBCmU", "note": "Obito - Chưa Xong" },
   { "youtubeID": "WloWVv3-uZ0", "note": "0 AI NGHĨ + BƯỚC ZA ĐI XA - Wxrdie" },
   { "youtubeID": "Q5fpmJNkV4Y", "note": "ICD - BÓNG MA GÓC NHÀ" },
-  { "youtubeID": "Mmn8GekW58o", "note": "Obito - Ước mơ của Mẹ" }
+  { "youtubeID": "Mmn8GekW58o", "note": "Obito - Ước mơ của Mẹ" },
+  { "youtubeID": "Cvx8o0qc208", "note": "con người - gió" },
+  { "youtubeID": "NFzSXLyQgbs", "note": "1 Chọi 100 - Nah" }
 ]
