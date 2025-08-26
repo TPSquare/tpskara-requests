@@ -1,12 +1,11 @@
 [
-  { "youtubeID": "JjsOfgV_NGU", "note": "Nhật Hoàng | Sinh Mệnh" },
   { "youtubeID": "SLeWRQyJWWM", "note": "5BER1 - LÀM LIỀU" },
   { "youtubeID": "3DWWhyyXx84", "note": "Bài Ca Thịt Nướng - Hari Won" },
   { "youtubeID": "Z8OrrzIIDTc", "note": "Vô Ý - 1nG" },
   { "youtubeID": "7eyEUaVXF8E", "note": "MOTCHUTHOI | B Ray" },
   { "youtubeID": "e7UoRiZAJEo", "note": "HUỲNH CÔNG HIẾU - HÒN NGỌC VIỄN ĐÔNG" },
-  { "youtubeID": "IstCx5Xvbig", "note": "Aric | The Future is Now" },
   { "youtubeID": "jy0bbnaIJ5E", "note": "HIEUTHUHAI - Everything Will Be Okay" },
+  { "youtubeID": "IstCx5Xvbig", "note": "Aric | The Future is Now" },
   { "youtubeID": "v_gttlXZTVI", "note": "Ta CÓ Nên (Intro) - B Ray" },
   { "youtubeID": "iXO_yp0wpRI", "note": "THAY LỜI MUỐN NÓI - Rick" },
   { "youtubeID": "1g8TRI1qTds", "note": "Young H - Wasabi" },
@@ -70,5 +69,15 @@
   { "youtubeID": "Q5fpmJNkV4Y", "note": "ICD - BÓNG MA GÓC NHÀ" },
   { "youtubeID": "Mmn8GekW58o", "note": "Obito - Ước mơ của Mẹ" },
   { "youtubeID": "Cvx8o0qc208", "note": "con người - gió" },
-  { "youtubeID": "NFzSXLyQgbs", "note": "1 Chọi 100 - Nah" }
+  { "youtubeID": "NFzSXLyQgbs", "note": "1 Chọi 100 - Nah" },
+  {
+    "youtubeID": "AmiJ2_EJrdA",
+    "note": "VUI CHO EM CÒN AI BÙN CHO TUI - michael hư đốn x jimmi ngủyên"
+  },
+  { "youtubeID": "ukNzteCTrSk", "note": "Reeves (feat. Manbo & HIEUTHUHAI)" },
+  {
+    "youtubeID": "7UWOA9Afbxw",
+    "note": "Deep Sea - Binz x Thanh Nguyễn x Triple D",
+    "request": "Có bè tiếng Anh"
+  }
 ]
