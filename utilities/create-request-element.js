@@ -45,7 +45,7 @@ export default function createRequestElement({
   if (donate) {
     const donateElement = document.createElement("div");
     donateElement.className = "donate";
-    donateElement.textContent = donate;
+    donateElement.innerText = donate;
     requestElement.appendChild(donateElement);
   }
 
