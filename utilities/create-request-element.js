@@ -4,7 +4,7 @@ export default function createRequestElement({
   request,
   order,
   link,
-  donate,
+  priority,
 }) {
   const requestElement = document.createElement("div");
   requestElement.className = "request";
@@ -42,11 +42,11 @@ export default function createRequestElement({
     rightBottomElement.appendChild(requestTextElement);
   }
 
-  if (donate) {
-    const donateElement = document.createElement("div");
-    donateElement.className = "donate";
-    donateElement.innerHTML = donate.replaceAll(" ", "&nbsp;");
-    requestElement.appendChild(donateElement);
+  if (priority) {
+    const priorityElement = document.createElement("div");
+    priorityElement.className = "priority";
+    priorityElement.innerHTML = priority.replaceAll(" ", "&nbsp;");
+    requestElement.appendChild(priorityElement);
   }
 
   return requestElement;

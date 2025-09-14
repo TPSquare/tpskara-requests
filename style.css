@@ -212,7 +212,7 @@ main {
   margin-bottom: 0.2em;
 }
 
-#requests-list .request .donate {
+#requests-list .request .priority {
   position: absolute;
   font-size: 0.9em;
   font-weight: 500;
