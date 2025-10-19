@@ -218,7 +218,7 @@ main {
   font-weight: 500;
   right: 0;
   background-color: #1de9b6;
-  color: #0f0f0f !important;
+  color: black;
   padding: 0.1em 0.4em;
   border-radius: 0.25em;
 }
