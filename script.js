@@ -19,7 +19,8 @@ import getVideoData from "./utilities/get-video-data.js";
 
   if (requests.length) requestsListElement.removeChild(requestsListElement.querySelector(".empty"));
 
-  requests.forEach(async (request, i) => {
+  for (let i = 0; i < requests.length; i++) {
+    const request = requests[i];
     const config = { request: request.request, order: i + 1, priority: request.priority };
     if (request.youtubeID) {
       const { snippet } = await getVideoData(request.youtubeID);
@@ -35,7 +36,7 @@ import getVideoData from "./utilities/get-video-data.js";
     }
     const requestElement = createRequestElement(config);
     requestsListElement.appendChild(requestElement);
-  });
+  }
 })();
 
 (() => {
