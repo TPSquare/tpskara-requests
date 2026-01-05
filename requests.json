@@ -1,5 +1,4 @@
 [
-  { "youtubeID": "82x1KNPXTxk", "note": "Obito - Trốn Chạy" },
   { "youtubeID": "kRVvAE9Ud8k", "note": "GIẤC MƠ CỦA NOAH", "priority": "MỚI" },
   { "youtubeID": "r1gs0qNUyKY", "note": "ĐỨT TƠ HỒNG - DUNGHOANGPHAM X HOÀNG PHÚC", "request": "Tone nam" },
   { "youtubeID": "9vzryGCfEB8", "note": "Freaky - Điếu Thuốc Đầu Tiên", "priority": "MỚI" },
@@ -15,7 +14,9 @@
   { "youtubeID": "x0UbU9fcfBE", "note": "Mơ - Namnoigi ft QuyenQui" },
   { "date": "31/12/2025", "youtubeID": "6F1Vpv9g_6I", "note": "LÍNH DÙ | Y Vũ @BCD-81", "priority": " ★ " },
   { "youtubeID": "YhOT6FTC7HM", "note": "Obito - Champion" },
+  { "date": "05/01/2026", "youtubeID": "Th9QJbOxL7Q", "note": "Thôi Trễ Rồi, Chắc Anh Phải Về Đây - TeA ft. PC @nguyenvosongtoan2580", "priority": " ★ " },
   { "youtubeID": "FRlWyqFLVy8", "note": "Ức Chế - Karik" },
+  { "date": "05/01/2026", "youtubeID": "NxZXBV_lEV4", "note": "TEZ - BỎ MẶC ANH @teamtiteochannel2646", "priority": "MỚI" },
   { "youtubeID": "2kxjMApnJc0", "note": "Pjpo VS Obito - Nghe - Nói" },
   { "youtubeID": "GUCd7imBCmU", "note": "Obito - Chưa Xong" },
   { "youtubeID": "WloWVv3-uZ0", "note": "0 AI NGHĨ + BƯỚC ZA ĐI XA - Wxrdie" },
@@ -48,7 +49,7 @@
   { "youtubeID": "X28IpgmNjWM", "note": "ĐEN VÀ TRẮNG rick" },
   { "youtubeID": "y2BrFInYIGo", "note": "BLACKLIONS-EM IS KITYY" },
   { "youtubeID": "_hS33cHtK-E", "note": "Chuyến Tàu - BRay", "request": "Có bè tiếng Anh" },
-  { "youtubeID": "sJt_i0hOugA", "note": "HIEUTHUHAI - Exit Sign", "request": "Có hook" },
+  { "youtubeID": "sJt_i0hOugA", "note": "HIEUTHUHAI - Exit Sign", "request": "Có hook, có giọng marzuz" },
   { "youtubeID": "rDhBvaQxEd8", "note": "Tọi - Hạnh Phúc Của Một Tang Gia" },
   { "youtubeID": "GRJrMN8mQ3M", "note": "Young CD x @RockyCDE29M1 - BÓNG BAY" },
   { "youtubeID": "nH_GMngQfzw", "note": "PHÍ PHƯƠNG ANH x RIN9 | Cánh Bướm Dối Gian" },
@@ -154,5 +155,9 @@
   { "date": "29/12/2025", "youtubeID": "Oz8RF_1eGxw", "note": "TRƯỚC KHI TUỔI TRẺ NÀY ĐÓNG LỐI | Ngắn x Xám x Dick @Nhangaming269" },
   { "date": "29/12/2025", "youtubeID": "dzUpYaGrYSw", "note": "Cho anh thời gian - The Wind @inkgm7690" },
   { "date": "29/12/2025", "youtubeID": "oSUxVnsTQtQ", "note": "GÓC NHÌN KHÁC | HAZEL @hakeyy1010" },
-  { "date": "03/01/2026", "youtubeID": "ZnXZoLov5ss", "note": "B-Wine - LOCK IN @chemes_mc1013" }
+  { "date": "03/01/2026", "youtubeID": "ZnXZoLov5ss", "note": "B-Wine - LOCK IN @chemes_mc1013" },
+  { "date": "05/01/2026", "youtubeID": "epKZyzoA_Mg", "note": "hale - BỮA TỐI ft hurrykng @GiaBaoNguyenTran-oz6tr" },
+  { "date": "05/01/2026", "youtubeID": "rMEYwonwIT8", "note": "hale - quả đào cà tím @GiaBaoNguyenTran-oz6tr" },
+  { "date": "05/01/2026", "youtubeID": "b4ivly3_7ZA", "note": "Dmcs4 - Nah @BâpKa-o8s" },
+  { "date": "05/01/2026", "youtubeID": "OAP2Y0ooiKo", "note": "Truyện Tranh (Intro) - B Ray @xinhthibui9069" }
 ]
