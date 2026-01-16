@@ -141,6 +141,10 @@ main {
   margin-bottom: 0.625em;
 }
 
+#requests .informations a {
+  color: dodgerblue;
+}
+
 #requests-list .request {
   position: relative;
   display: flex;
